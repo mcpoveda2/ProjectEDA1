@@ -6,26 +6,39 @@ package com.poo05.proyectoed;
 
 import java.io.IOException;
 import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
 
 /**
  *
  * @author USERº
  */
-public class ElegirContacto {
+public class CrearEmpresa {
     
+     
     @FXML
+    public TextField txtempresa;
+    @FXML
+    public TextField txtnumeroLocal;
+    @FXML
+    public TextField txtpersona;
+    @FXML
+    public TextField txtnumeroP;
+    @FXML
+    public TextField txtdireccion;
+    @FXML
+    public TextField txtcorreo;
+    
+      @FXML
     private void switchToSecondary() throws IOException {
         App.setRoot("secondary");
     }
     
     @FXML
-    private void switchToPersona() throws IOException {
-        App.setRoot("crear");
+    private void Agregar(){
+    
     }
     
-     @FXML
-    private void switchToEmpresa() throws IOException {
-        App.setRoot("crearEmpresa");
-    }
+    
+    
     
 }
